@@ -1,4 +1,4 @@
-package org.example;
+package com.epam;
 
 import static org.junit.Assert.assertTrue;
 
