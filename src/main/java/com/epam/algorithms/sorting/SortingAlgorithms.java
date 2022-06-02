@@ -4,10 +4,41 @@ import java.util.Arrays;
 
 public class SortingAlgorithms {
     public static void main(String[] args) {
-        int arr[] = {4,3,5,1,2};
+        int arr[] = {6,3,2,1,5,9,7,8,15};
         SortingAlgorithms so = new SortingAlgorithms();
-        so.bubbleSort(arr);
+        //so.bubbleSort(arr);
+        so.quickSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
+    }
+
+    private void quickSort(int[] arr, int left, int right) {
+        if(left>=right)
+            return;
+        //partitioning
+        int pi = partition(arr,left,right);
+        //sort left side to pivot
+        quickSort(arr,left,pi-1);
+        //sort right side to pivot
+        quickSort(arr,pi+1,right);
+    }
+
+    private int partition(int[] arr, int left, int right) {
+        int pivot=arr[right];
+        int i=left-1;
+        for(int j=left;j<right;j++){
+            if(arr[j]<pivot){
+                i++;
+                swap(arr,i,j);
+            }
+        }
+        swap(arr,i+1,right);
+        return i+1;
+    }
+
+    private void swap(int[] arr, int left, int right) {
+        int swap = arr[left];
+        arr[left] = arr[right];
+        arr[right] = swap;
     }
 
     //Time complexity
