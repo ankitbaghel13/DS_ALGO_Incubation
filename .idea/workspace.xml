@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a8d1aca-e611-4482-920f-455d0bafa5ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/algorithms/recursion/RecursionPrograms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/algorithms/sorting/SortingAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/algorithms/sorting/SortingAlgorithms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +42,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SortingAlgorithms">
+  <component name="RunManager" selected="Application.RecursionPrograms">
     <configuration name="QueueDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.epam.dataStructures.QueueDS" />
       <module name="DSAlgoIncubation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.epam.dataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionPrograms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.algorithms.recursion.RecursionPrograms" />
+      <module name="DSAlgoIncubation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.algorithms.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionPrograms" />
         <item itemvalue="Application.SortingAlgorithms" />
         <item itemvalue="Application.QueueDS" />
       </list>
@@ -98,5 +111,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epam/algorithms/recursion/RecursionPrograms.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
