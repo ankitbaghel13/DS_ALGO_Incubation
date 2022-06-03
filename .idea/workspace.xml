@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a8d1aca-e611-4482-920f-455d0bafa5ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/algorithms/recursion/RecursionPrograms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/Java8Problems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/dataStructures/StackDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/dataStructures/StackQuestions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +47,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RecursionPrograms">
-    <configuration name="QueueDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.epam.dataStructures.QueueDS" />
+  <component name="RunManager" selected="Application.StackQuestions">
+    <configuration name="Java8Problems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.Java8Problems" />
       <module name="DSAlgoIncubation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.dataStructures.*" />
+          <option name="PATTERN" value="com.epam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,11 +87,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.dataStructures.StackDS" />
+      <module name="DSAlgoIncubation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.dataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.dataStructures.StackQuestions" />
+      <module name="DSAlgoIncubation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.dataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackQuestions" />
+        <item itemvalue="Application.Java8Problems" />
+        <item itemvalue="Application.StackDS" />
         <item itemvalue="Application.RecursionPrograms" />
         <item itemvalue="Application.SortingAlgorithms" />
-        <item itemvalue="Application.QueueDS" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +152,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/epam/algorithms/recursion/RecursionPrograms.java</url>
           <line>19</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/epam/dataStructures/StackQuestions.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
