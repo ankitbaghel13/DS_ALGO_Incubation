@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a8d1aca-e611-4482-920f-455d0bafa5ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epam/dataStructures/LinkedListQuestions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/dataStructures/StackQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/dataStructures/StackQuestions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackQuestions">
+  <component name="RunManager" selected="Application.LinkedListQuestions">
     <configuration name="Java8Problems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.epam.Java8Problems" />
       <module name="DSAlgoIncubation" />
@@ -56,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionPrograms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.epam.algorithms.recursion.RecursionPrograms" />
+    <configuration name="LinkedListQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.dataStructures.LinkedListQuestions" />
       <module name="DSAlgoIncubation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.algorithms.recursion.*" />
+          <option name="PATTERN" value="com.epam.dataStructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.epam.algorithms.sorting.SortingAlgorithms" />
+    <configuration name="RecursionPrograms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.epam.algorithms.recursion.RecursionPrograms" />
       <module name="DSAlgoIncubation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.algorithms.sorting.*" />
+          <option name="PATTERN" value="com.epam.algorithms.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListQuestions" />
         <item itemvalue="Application.StackQuestions" />
         <item itemvalue="Application.Java8Problems" />
         <item itemvalue="Application.StackDS" />
         <item itemvalue="Application.RecursionPrograms" />
-        <item itemvalue="Application.SortingAlgorithms" />
       </list>
     </recent_temporary>
   </component>
